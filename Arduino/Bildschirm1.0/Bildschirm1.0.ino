@@ -221,7 +221,7 @@ void loop() {
   }
 }
 
-
+// Function contains Elements that are not valid for a ASW
 void readSignal(void) {
   // READ ARDUINO
   if (Serial1.available() != 0) {
